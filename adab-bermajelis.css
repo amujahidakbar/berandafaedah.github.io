@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Noto Sans Arabic';
+    margin: 0;
+}
+
+.nav-container {
+    padding: 0 96px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-container nav {
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo-header {
+    width: 240px;
+    padding: 16px 0;
+}
+
+.nav-container nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 24px 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#content {
+    border: thin gray solid;
+    border-radius: 6px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#content-header figure img {
+    width: 90%;
+}
+
+#content-header figure {
+    display: flex;
+    justify-content: center;
+}
+
+#content-nav ul li a {
+    text-decoration: none;
+}
+
+h1 {
+    padding-bottom: 12px;
+    border-bottom: thin gray solid;
+}
+
+blockquote {
+    font-size: large;
+}
+
+#kitab-lainnya {
+    border: thin gray solid;
+    border-radius: 6px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.daftar-kitab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.daftar-kitab img {
+    width: 50%;
+}
+
+.profil {
+    border: thin gray solid;
+    border-radius: 6px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profil-picture {
+    width: 252px;
+}
+
+footer {
+    color: white;
+    background-color: #303030;
+}
+
+#tentang-kami {
+    padding: 12px 48px;
+}
+
+.about-table {
+    display: flex;
+    gap: 12px;
+}
